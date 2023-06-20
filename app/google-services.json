@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "452139881148",
+    "project_id": "projeto-faculdade-26c27",
+    "storage_bucket": "projeto-faculdade-26c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452139881148:android:2a5f10a666ae80321ef6b9",
+        "android_client_info": {
+          "package_name": "com.leonidas.app_faculdade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452139881148-taeorvi3cah42d4l3mfgteji6jotn40s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leonidas.app_faculdade",
+            "certificate_hash": "26f79d878415295701b8af257e3dd528b5d3e599"
+          }
+        },
+        {
+          "client_id": "452139881148-94ai1lfa73q70vr8bi6tkcaeuravr85h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjTwU1k09cou32_UruEAMmboU-veP8Kcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452139881148-94ai1lfa73q70vr8bi6tkcaeuravr85h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,253 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    android:paddingStart="-20sp"
+    android:paddingTop="30sp"
+    tools:context=".pedidos">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cardápio"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_saladaaaa_foreground" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp"
+            android:text="GMM SALADA:
+            R$ 18,00 " />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Qtd:" />
+
+        <Button
+            android:id="@+id/btnMenosSalada"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/txtqtdSalada"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnMaisSalada"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_bacon_foreground" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp"
+            android:text="GMM BACON:
+            R$ 24,00 " />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Qtd:" />
+
+        <Button
+            android:id="@+id/btnMenosBacon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/txtqtdBacon"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnMaisBacon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_batata_foreground" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp"
+            android:text="PORÇÂO BATATA: R$ 27,00 " />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Qtd:" />
+
+        <Button
+            android:id="@+id/btnMenosBatata"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/txtqtdBatata"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnMaisBatata"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_refri_foreground" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp"
+            android:text="Refrigerante:
+            R$ 5,00 " />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Qtd:" />
+
+        <Button
+            android:id="@+id/btnMenosRefri"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/txtqtdRefri"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnMaisRefri"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_money" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="Total Geral : R$ "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtTotalPedido"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGravarPedido"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000000"
+            android:text="Pagamento" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
